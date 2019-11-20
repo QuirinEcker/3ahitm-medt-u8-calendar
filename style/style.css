@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.switch-button {
+    width: 5vw;
+    height: 100vh;
+}
+
+#month {
+    width: 90vw;
+    height: 90vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.day {
+    width: 13.4%;
+    height: 18%;
+
+    color: #41ab6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.7vw;
+    background-color: white;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 5vh;
+}

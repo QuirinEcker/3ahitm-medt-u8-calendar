@@ -6,6 +6,7 @@ class Calendar {
         for (let i = 1; i <= date.getDate(); i++) {
             let element = document.createElement('div');
             element.textContent = i.toString();
+            element.classList.add('day');
             monthBox.appendChild(element);
         }
     }
