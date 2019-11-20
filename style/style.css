@@ -3,11 +3,25 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    overflow: hidden;
 }
 
 .switch-button {
     width: 5vw;
     height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#back {
+    transform: rotate(90deg);
+}
+
+#forward {
+    transform: rotate(-90deg);
 }
 
 #month {
